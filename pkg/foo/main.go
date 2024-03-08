@@ -6,7 +6,7 @@ import (
 	"github.com/bufbuild/protoplugin"
 )
 
-// Handle implements the [https://pkg.go.dev/github.com/bufbuild/protoplugin#Handler] interface and
+// Handle implements the (protoplugin.Handler)[https://pkg.go.dev/github.com/bufbuild/protoplugin#Handler] interface and
 // is the entry point for the plugin.
 func Handle(
 	ctx context.Context,
